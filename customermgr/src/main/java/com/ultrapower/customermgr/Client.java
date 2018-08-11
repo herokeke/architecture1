@@ -37,7 +37,7 @@ public class Client {
         cm.setRegisterTime("111");
         cm.setShowName("Demo");
         cm.setTrueName("系统管理员");
-
+        System.out.println();
        // t.customerDao.create(cm);
         t.getIservice().create(cm);
 
