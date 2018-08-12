@@ -8,7 +8,7 @@
     </insert>
 
     <update id="update" parameterType="CM">
-        update tb1_customer set customerId = #{customerId},pwd = #{pwd},showName = #{showName},trueName = #{trueName},registerTime = #{registerTime} where pid=#{registerTime}
+        update tb1_customer set customerId = #{customerId},pwd = #{pwd},showName = #{showName},trueName = #{trueName},registerTime = #{registerTime} where pid=#{pid}
     </update>
 
 

@@ -7,7 +7,7 @@ public class CustomerWebModel {
 
     private String queryJsonStr = "";
 
-    private int nowPage = 1;
+    private int pageNum = 1;
 
     public String getQueryJsonStr() {
         return queryJsonStr;
@@ -17,7 +17,12 @@ public class CustomerWebModel {
         this.queryJsonStr = queryJsonStr;
     }
 
-    private int pageShow = 0;
 
+    public int getPageNum() {
+        return pageNum;
+    }
 
+    public void setPageNum(int pageNum) {
+        this.pageNum = pageNum;
+    }
 }

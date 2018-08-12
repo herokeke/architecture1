@@ -29,8 +29,9 @@
          <td>${m.trueName}</td>
          <td>${m.registerTime}</td>
          <td>
-             <a>修改</a>
-             <a>删除</a>
+             <a href="${pageContext.request.contextPath}/customer/toUpdate/${m.pid}">修改</a>
+
+             <a href="${pageContext.request.contextPath}/customer/toDelete/${m.pid}">删除</a>
          </td>
      </tr>
  </c:forEach>

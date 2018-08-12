@@ -36,9 +36,9 @@ public class CustomerController {
         return "customer/success";
     }
 
-    @RequestMapping(value = "toUpdate/(customerId)",method = RequestMethod.GET)
-    public String toUpdate(Model model, @PathVariable("customerId") int customerId){
-        CustomerModel cm =  ics.getByPid(customerId);
+    @RequestMapping(value = "toUpdate/{pid}",method = RequestMethod.GET)
+    public String toUpdate(Model model, @PathVariable("pid") int pid){
+        CustomerModel cm =  ics.getByPid(pid);
         model.addAttribute("cm",cm);
         return "customer/update";
     }
@@ -49,19 +49,35 @@ public class CustomerController {
         return "customer/success";
     }
 
-    @RequestMapping(value = "toDelete/(customerId)",method = RequestMethod.GET)
-    public String toDelete(Model model, @PathVariable("customerId") int customerId){
-        CustomerModel cm =  ics.getByPid(customerId);
+    @RequestMapping(value = "toDelete/{pid}",method = RequestMethod.GET)
+    public String toDelete(Model model, @PathVariable("pid") int pid){
+        CustomerModel cm =  ics.getByPid(pid);
         model.addAttribute("cm",cm);
         return "customer/delete";
     }
 
     @RequestMapping(value = "delete",method = RequestMethod.POST)
-    public String post(@RequestParam("pid") int customerId){
-        ics.delete(customerId);
+    public String post(@RequestParam("pid") int pid){
+        ics.delete(pid);
         return "customer/success";
     }
 
+
+    @RequestMapping(value = "toList",method = RequestMethod.GET)
+    public String toList(@ModelAttribute("wm") CustomerWebModel wm, Model model){
+        CustomerQueryModel cqm = null;
+        if(StringUtils.isEmpty(cqm) || wm.getQueryJsonStr().trim().length()==0){
+            cqm = new CustomerQueryModel();
+        }else{
+            cqm = (CustomerQueryModel)JsonHelper.str2object(wm.getQueryJsonStr(),CustomerQueryModel.class);
+        }
+        cqm.getPageHelper().startPage(wm.getPageNum(),5);
+        PageInfo<CustomerModel> cpageInfo  = ics.getByConditionPage(cqm);
+        model.addAttribute("page",cpageInfo);
+        return "customer/list";
+    }
+
+    /*
     @RequestMapping(value = "toList",method = RequestMethod.GET)
     public String toList(@RequestParam(value = "queryJsonStr",defaultValue = "")String queryJson,@ModelAttribute("page") PageInfo pageInfo, Model model){
         CustomerQueryModel cqm = null;
@@ -75,5 +91,8 @@ public class CustomerController {
         model.addAttribute("page",cpageInfo);
         return "customer/list";
     }
+    */
+
+
 
 }
