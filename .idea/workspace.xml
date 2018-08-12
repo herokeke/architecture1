@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17ab31b0-6d22-4f14-9227-675bf9e94508" name="Default" comment="s">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/update.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/delete.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/Client.class" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/jsp/customer/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+    <list default="true" id="17ab31b0-6d22-4f14-9227-675bf9e94508" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/Client.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/Client.class" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerController.java" afterPath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java" afterPath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/jsp/customer/list.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -190,8 +184,8 @@
       <file leaf-file-name="delete.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/delete.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="169">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -2137,7 +2131,7 @@
       <workItem from="1533950620487" duration="109000" />
       <workItem from="1533965682307" duration="13490000" />
       <workItem from="1534042094452" duration="4127000" />
-      <workItem from="1534047353222" duration="4000" />
+      <workItem from="1534047353222" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1534005789064</created>
@@ -2146,11 +2140,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534005789064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改，删除 Demo">
+      <created>1534047401298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534047401298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147451000" />
+    <option name="totallyTimeSpent" value="147503000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2247,7 +2248,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
-    <option name="LAST_COMMIT_MESSAGE" value="s" />
+    <MESSAGE value="修改，删除 Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改，删除 Demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2553,6 +2555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2588,6 +2591,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2699,8 +2707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/delete.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="169">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
