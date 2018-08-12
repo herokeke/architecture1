@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17ab31b0-6d22-4f14-9227-675bf9e94508" name="Default" comment="">
+    <list default="true" id="17ab31b0-6d22-4f14-9227-675bf9e94508" name="Default" comment="修改，删除 Demo">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/Client.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" />
@@ -280,6 +280,9 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -416,6 +419,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -1280,8 +1285,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2131,7 +2134,7 @@
       <workItem from="1533950620487" duration="109000" />
       <workItem from="1533965682307" duration="13490000" />
       <workItem from="1534042094452" duration="4127000" />
-      <workItem from="1534047353222" duration="70000" />
+      <workItem from="1534047353222" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1534005789064</created>
@@ -2154,11 +2157,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534047419644</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改，删除 Demo">
+      <created>1534047455109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534047455109</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147517000" />
+    <option name="totallyTimeSpent" value="147596000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2171,7 +2181,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="2" width="1934" height="1036" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2196,7 +2205,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6567164" sideWeight="0.4914163" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2188172" sideWeight="0.4879449" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2188172" sideWeight="0.4879449" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3091398" sideWeight="0.5120551" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24356224" sideWeight="0.5075269" order="5" side_tool="true" content_ui="tabs" />
@@ -2577,6 +2586,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7560">
           <caret line="252" column="42" lean-forward="false" selection-start-line="252" selection-start-column="42" selection-end-line="252" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
