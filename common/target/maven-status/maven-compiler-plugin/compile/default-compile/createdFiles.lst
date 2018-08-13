@@ -1,4 +1,7 @@
 com\ultrapower\common\dao\BaseDAO.class
 com\ultrapower\common\service\IBaseService.class
-com\ultrapower\common\service\BaseService.class
+com\ultrapower\util\format\DateFormatHelper.class
 com\ultrapower\common\vo\BaseModel.class
+com\ultrapower\util\json\JsonHelper.class
+com\ultrapower\common\service\BaseService.class
+com\ultrapower\common\web\BaseWebModel.class

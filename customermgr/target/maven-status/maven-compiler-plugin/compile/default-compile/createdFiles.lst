@@ -1,7 +1,0 @@
-com\ultrapower\customermgr\web\CustomerController.class
-com\ultrapower\customermgr\vo\CustomerQueryModel.class
-com\ultrapower\customermgr\service\ICustomerService.class
-com\ultrapower\customermgr\vo\CustomerModel.class
-com\ultrapower\customermgr\service\CustomerService.class
-com\ultrapower\customermgr\web\CustomerWebModel.class
-com\ultrapower\customermgr\dao\CustomerDAO.class

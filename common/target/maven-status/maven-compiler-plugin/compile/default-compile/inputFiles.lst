@@ -3,4 +3,5 @@ D:\project\idea\maven_demo\architecture1\common\src\main\java\com\ultrapower\com
 D:\project\idea\maven_demo\architecture1\common\src\main\java\com\ultrapower\common\service\BaseService.java
 D:\project\idea\maven_demo\architecture1\common\src\main\java\com\ultrapower\common\service\IBaseService.java
 D:\project\idea\maven_demo\architecture1\common\src\main\java\com\ultrapower\common\vo\BaseModel.java
+D:\project\idea\maven_demo\architecture1\common\src\main\java\com\ultrapower\common\web\BaseWebModel.java
 D:\project\idea\maven_demo\architecture1\common\src\main\java\com\ultrapower\util\format\DateFormatHelper.java

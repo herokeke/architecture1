@@ -1,15 +1,20 @@
 package com.ultrapower.common.vo;
 
+
 import com.github.pagehelper.PageHelper;
 
 /**
  * Created by User on 2018/8/7.
  */
-public class BaseModel {
+public class BaseModel implements java.io.Serializable {
 
     private Integer pid;
 
-    private PageHelper pageHelper = new  PageHelper();
+    /*
+    分页在引入ehcache后在查询中报错：
+    java.io.NotSerializableException: com.github.pagehelper.PageHelper
+     */
+    private transient PageHelper pageHelper = new  PageHelper();
 
     public Integer getPid() {
         return pid;

@@ -2,16 +2,388 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17ab31b0-6d22-4f14-9227-675bf9e94508" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/Client.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_logback_extensions_logback_ext_spring_0_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_ehcache_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/web/BaseWebModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/customermgr/src/main/resources/logback.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/storemgr/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/storemgr/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/vo/CustomQueryModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/store.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/vo/CustomQueryModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/META-INF/maven/com.ultrapower/storemgr/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/META-INF/maven/com.ultrapower/storemgr/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/customermgr/src/resources/MybatisConf.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/customermgr/src/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/customermgr/src/resources/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/customermgr/src/resources/spring-mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/slf4j-simple-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.0.RELEASE.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/Client.class" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/vo/CustomerModel.class" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/vo/CustomerModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/Client.class" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/vo/CustomerModel.class" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/vo/CustomerModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/lib/common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/storemgr/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/cartmgr/target/cartmgr-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/classes/com/ultrapower/common/vo/BaseModel.class" afterPath="$PROJECT_DIR$/common/target/classes/com/ultrapower/common/vo/BaseModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/Client.class" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr.war" afterPath="$PROJECT_DIR$/customermgr/target/customermgr.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/web/CustomerWebModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/lib/common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/customermgr/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgr/target/goodsmgr-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/goodsmgr/target/goodsmgr-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgr/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/goodsmgr/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/goodsmgrweb/target/goodsmgrweb-1.0-SNAPSHOT/WEB-INF/lib/goodsmgr-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/ordermgr/target/ordermgr-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/storemgr/target/storemgr-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/architecture1web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/architecture1web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cartmgr_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cartmgr_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/customermgr_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/customermgr_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/goodsmgrweb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/goodsmgrweb_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ordermgr_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ordermgr_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/storemgr_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/storemgr_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1.iml" afterPath="$PROJECT_DIR$/architecture1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/architecture1web.iml" afterPath="$PROJECT_DIR$/architecture1web/architecture1web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/cartmgr/pom.properties" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/cartmgr/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/customermgr/pom.properties" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/customermgr/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/goodsmgrweb/pom.properties" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/goodsmgrweb/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/ordermgr/pom.properties" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/maven/com.ultrapower/ordermgr/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/jsp/customer/add.jsp" afterPath="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/WEB-INF/jsp/customer/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/META-INF/maven/com.ultrapower/cartmgr/pom.properties" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/cartmgr/META-INF/maven/com.ultrapower/cartmgr/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/META-INF/maven/com.ultrapower/customermgr/pom.properties" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/META-INF/maven/com.ultrapower/customermgr/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/jsp/customer/add.jsp" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/jsp/customer/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/customermgr/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/META-INF/maven/com.ultrapower/goodsmgrweb/pom.properties" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/goodsmgrweb/META-INF/maven/com.ultrapower/goodsmgrweb/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/META-INF/maven/com.ultrapower/ordermgr/pom.properties" afterPath="$PROJECT_DIR$/architecture1web/target/war/work/com.ultrapower/ordermgr/META-INF/maven/com.ultrapower/ordermgr/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cartmgr/cartmgr.iml" afterPath="$PROJECT_DIR$/cartmgr/cartmgr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cartmgr/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cartmgr/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/common.iml" afterPath="$PROJECT_DIR$/common/common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/vo/BaseModel.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/vo/BaseModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/customermgr.iml" afterPath="$PROJECT_DIR$/customermgr/customermgr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java" afterPath="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/customermgr/target/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/classes/logback.xml" afterPath="$PROJECT_DIR$/customermgr/target/classes/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/classes/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/jsp/customer/list.jsp" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/jsp/customer/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/customermgr/target/customermgr/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customermgr/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/customermgr/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgr/goodsmgr.iml" afterPath="$PROJECT_DIR$/goodsmgr/goodsmgr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgr/target/surefire-reports/TEST-com.ultrapower.AppTest.xml" afterPath="$PROJECT_DIR$/goodsmgr/target/surefire-reports/TEST-com.ultrapower.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgr/target/surefire-reports/com.ultrapower.AppTest.txt" afterPath="$PROJECT_DIR$/goodsmgr/target/surefire-reports/com.ultrapower.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgrweb/goodsmgrweb.iml" afterPath="$PROJECT_DIR$/goodsmgrweb/goodsmgrweb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsmgrweb/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/goodsmgrweb/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ordermgr/ordermgr.iml" afterPath="$PROJECT_DIR$/ordermgr/ordermgr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ordermgr/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/ordermgr/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storemgr/storemgr.iml" afterPath="$PROJECT_DIR$/storemgr/storemgr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storemgr/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/storemgr/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,125 +459,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="128" column="18" lean-forward="false" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customermgr.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customermgr/customermgr.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-900">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerWebModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="58" column="35" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#849#850#0" expanded="false" />
-                <element signature="e#886#887#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomerModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="e#353#354#0" expanded="false" />
-                <element signature="e#386#387#0" expanded="false" />
-                <element signature="e#438#439#0" expanded="false" />
-                <element signature="e#482#483#0" expanded="false" />
-                <element signature="e#512#513#0" expanded="false" />
-                <element signature="e#538#539#0" expanded="false" />
-                <element signature="e#576#577#0" expanded="false" />
-                <element signature="e#606#607#0" expanded="false" />
-                <element signature="e#641#642#0" expanded="false" />
-                <element signature="e#672#673#0" expanded="false" />
-                <element signature="e#720#721#0" expanded="false" />
-                <element signature="e#760#761#0" expanded="false" />
-                <element signature="e#795#796#0" expanded="false" />
-                <element signature="e#826#827#0" expanded="false" />
-                <element signature="e#874#875#0" expanded="false" />
-                <element signature="e#914#915#0" expanded="false" />
-                <element signature="e#953#954#0" expanded="false" />
-                <element signature="e#988#989#0" expanded="false" />
-                <element signature="e#1044#1045#0" expanded="false" />
-                <element signature="e#1092#1093#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <marker date="1534044890603" expanded="true" signature="280:422" ph="INSERT INTO tb1_customer... " />
-                <marker date="1534044890603" expanded="true" signature="491:648" ph="update tb1_c... " />
-                <marker date="1534044890603" expanded="true" signature="732:774" ph="DELETE from " />
-                <marker date="1534044890603" expanded="true" signature="874:917" ph="select * fro... tb1_customer" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBaseService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/service/IBaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/add.jsp">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customermgr/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="-191">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/delete.jsp">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="-2772">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/update.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/success.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="720">
+              <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -214,8 +534,28 @@
       <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="120">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerQueryModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomerQueryModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -230,22 +570,13 @@
         <option value="Tag Library Descriptor" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>delete tem</find>
-      <find>delete temp</find>
-      <find>poi.keep.tmp.files</find>
-      <find>iservice</find>
-      <find>aspectj</find>
-      <find>xml</find>
-      <find>5.0.0.RELEASE</find>
-      <find>5.0.2.RELEASE</find>
-      <find>spring.version</find>
       <find>Log4jConfigListener</find>
       <find>spring-mvc.xml</find>
       <find>mvc</find>
@@ -267,6 +598,15 @@
       <find>HttpServletRequest</find>
       <find>page</find>
       <find>hasPreviousPage</find>
+      <find>PageHelper</find>
+      <find>com.github.pagehelper</find>
+      <find>com.github.pagehelpercom.github.pagehelper</find>
+      <find>com.github.pagehelpercom.ultrapower.pagehelper</find>
+      <find>com.ultrapower.pagehelper</find>
+      <find>Log4j</find>
+      <find>slf4j</find>
+      <find>log4j</find>
+      <find>2.10.0</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -275,7 +615,12 @@
       <replace>showName</replace>
       <replace>trueName</replace>
       <replace>registerTime</replace>
+      <replace>com.ultrapower.pagehelper</replace>
+      <replace>com.github.pagehelper</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\project\idea\maven_demo\repo\com\github\pagehelper\pagehelper\5.1.2\pagehelper-5.1.2.jar!\com\github\pagehelper</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -289,13 +634,12 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/tags/page.tag" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/customermgr/src/main/webapp/cone.jsp" />
-        <option value="$PROJECT_DIR$/goodsmgr/src/main/java/com/ultrapower/goodsmgr/GoodsmgrOne.java" />
-        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/gOne.jsp" />
         <option value="$PROJECT_DIR$/architecture1web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/architecture1web/pom.xml" />
@@ -315,19 +659,14 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/service/IBaseService.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/add.jsp" />
         <option value="$PROJECT_DIR$/customermgr/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/customermgr/src/resources/logback.xml" />
         <option value="$PROJECT_DIR$/customermgr/src/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/customermgr/src/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/customermgr/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/util/format/DateFormatHelper.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomQueryModel.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomerQueryModel.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/service/ICustomerService.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/vo/BaseModel.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/service/BaseService.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/customermgr/src/resources/MybatisConf.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/util/json/JsonHelper.java" />
@@ -337,12 +676,21 @@
         <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/success.jsp" />
         <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/tags/page.tag" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/Client.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java" />
         <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/update.jsp" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
         <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerController.java" />
-        <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp" />
         <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/delete.jsp" />
+        <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/web/BaseWebModel.java" />
+        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java" />
+        <option value="$PROJECT_DIR$/customermgr/src/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/cache/Cache.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/vo/BaseModel.java" />
+        <option value="$PROJECT_DIR$/customermgr/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/customermgr/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -396,10 +744,28 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="2" />
+    <option name="x" value="-15" />
     <option name="width" value="1934" />
     <option name="height" value="1036" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JspTagBodyContent</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -419,8 +785,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -428,11 +792,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="customermgr">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="customermgr">
+            <PATH_ELEMENT USER_OBJECT="target">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -447,10 +807,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="customermgr">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -502,45 +858,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="webapp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WEB-INF">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="customermgr">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="customermgr">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="webapp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WEB-INF">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="tags">
+            <PATH_ELEMENT USER_OBJECT="resources">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -751,230 +1069,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ultrapower">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="util">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="json">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ultrapower">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="util">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="format">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ultrapower">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ultrapower">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ultrapower">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dao">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
@@ -989,314 +1083,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ultrapower" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ultrapower" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ultrapower" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="architecture1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ultrapower" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customermgr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_69bd5e6f85e4842f07db71c9618a621154c52254/cmd/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.validation" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34647304" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="HttpServletRequest&#9;PSI&#9;JAVA://org.springframework.web.multipart.support.AbstractMultipartHttpServletRequest&#10;spring-mvc.xml&#9;FILE&#9;file://D:/project/idea/maven_demo/architecture1/customermgr/src/resources/spring-mvc.xml&#10;logback.xml&#9;FILE&#9;file://D:/project/idea/maven_demo/architecture1/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml&#10;*log*.xml&#9;FILE&#9;file://D:/project/idea/maven_demo/architecture1/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+    <property name="SearchEverywhereHistoryKey" value="list.jsp&#9;FILE&#9;file://D:/project/idea/maven_demo/architecture1/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp&#10;pagei&#9;FILE&#9;jar://D:/project/idea/maven_demo/repo/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java&#10;PageHelper&#9;FILE&#9;jar://D:/project/idea/maven_demo/repo/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageHelper.java&#10;pagein&#9;FILE&#9;jar://D:/project/idea/maven_demo/repo/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java&#10;CustomerModel&#9;FILE&#9;file://D:/project/idea/maven_demo/architecture1/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomerModel.java&#10;HttpServletRequest&#9;PSI&#9;JAVA://org.springframework.web.multipart.support.AbstractMultipartHttpServletRequest&#10;spring-mvc.xml&#9;FILE&#9;file://D:/project/idea/maven_demo/architecture1/customermgr/src/resources/spring-mvc.xml&#10;logback.xml&#9;FILE&#9;file://D:/project/idea/maven_demo/architecture1/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml&#10;*log*.xml&#9;FILE&#9;file://D:/project/idea/maven_demo/architecture1/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2134,7 +1936,12 @@
       <workItem from="1533950620487" duration="109000" />
       <workItem from="1533965682307" duration="13490000" />
       <workItem from="1534042094452" duration="4127000" />
-      <workItem from="1534047353222" duration="222000" />
+      <workItem from="1534047353222" duration="314000" />
+      <workItem from="1534071080611" duration="4405000" />
+      <workItem from="1534125826449" duration="281000" />
+      <workItem from="1534129209284" duration="3392000" />
+      <workItem from="1534135779414" duration="1393000" />
+      <workItem from="1534140924411" duration="7287000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1534005789064</created>
@@ -2182,7 +1989,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147669000" />
+    <option name="totallyTimeSpent" value="164519000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2194,14 +2001,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="2" width="1934" height="1036" extended-state="1" />
-    <editor active="true" />
+    <frame x="-15" y="0" width="1934" height="1036" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52698046" sideWeight="0.50214595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4711212" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27096775" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32150537" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2209,29 +2015,29 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24799082" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3673938" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39071348" sideWeight="0.49248928" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41561425" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6567164" sideWeight="0.4914163" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48220438" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6613088" sideWeight="0.4914163" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2188172" sideWeight="0.4879449" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252688" sideWeight="0.4879449" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3091398" sideWeight="0.5120551" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5177956" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24356224" sideWeight="0.5075269" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3510759" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4867968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5177956" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2241,7 +2047,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52698046" sideWeight="0.50214595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4711212" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27096775" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32150537" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2250,21 +2056,21 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24799082" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.80973953" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39071348" sideWeight="0.49248928" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3510759" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41561425" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6567164" sideWeight="0.4914163" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48220438" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6613088" sideWeight="0.4914163" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4867968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2188172" sideWeight="0.4879449" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252688" sideWeight="0.4879449" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3091398" sideWeight="0.5120551" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5177956" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2273,6 +2079,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2284,44 +2100,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../repo/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/binding/MapperProxy.class</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../repo/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/binding/MapperProxy.class</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../repo/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/binding/MapperMethod.class</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../repo/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/binding/MapperProxy.class</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../repo/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/binding/MapperMethod.class</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../repo/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/binding/MapperMethod.class</url>
-          <line>289</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -2341,252 +2119,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../repo/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/org/apache/poi/util/TempFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="468" column="0" lean-forward="false" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-core/5.0.0.RELEASE/spring-core-5.0.0.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsmgrweb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/customermgr.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storemgr/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="26" column="125" lean-forward="false" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/util/format/DateFormatHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomQueryModel.java" />
-    <entry file="file://$PROJECT_DIR$/customermgr/src/resources/MybatisConf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="75" lean-forward="true" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE.jar!/org/springframework/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35790">
-          <caret line="1397" column="17" lean-forward="false" selection-start-line="1397" selection-start-column="17" selection-end-line="1397" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/util/json/JsonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomerQueryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/service/ICustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createSql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="570" column="9" lean-forward="true" selection-start-line="570" selection-start-column="9" selection-end-line="570" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/jstl/jstl/1.2/jstl-1.2.jar!/META-INF/c.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/vo/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/HttpRequestHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/multipart/support/AbstractMultipartHttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-746">
           <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/tags/page.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2597,70 +2133,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7560">
-          <caret line="252" column="42" lean-forward="false" selection-start-line="252" selection-start-column="42" selection-end-line="252" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repo/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <marker date="1534044890603" expanded="true" signature="280:422" ph="INSERT INTO tb1_customer... " />
-            <marker date="1534044890603" expanded="true" signature="491:648" ph="update tb1_c... " />
-            <marker date="1534044890603" expanded="true" signature="732:774" ph="DELETE from " />
-            <marker date="1534044890603" expanded="true" signature="874:917" ph="select * fro... tb1_customer" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/service/IBaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodsmgr/src/main/java/com/ultrapower/goodsmgr/GoodsmgrOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2672,75 +2177,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/update.jsp">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/web/BaseWebModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="56" />
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/resources/MybatisConf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="26" column="125" lean-forward="false" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodsmgrweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repo/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repo/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4.jar!/com/github/pagehelper/page/PageMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repo/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4-sources.jar!/com/github/pagehelper/page/PageMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/Constant.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/cache/GuavaCache.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/parser/CountSqlParser.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/parser/OrderByParser.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/Dialect.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/page/PageAutoDialect.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/cache/Cache.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/cache/CacheFactory.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/pagehelper/PageInfo.java" />
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/tags/page.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repo/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/page/PageMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2501">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repo/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/util/UriComponentsBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/ultrapower/common/vo/BaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/dao/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1028">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <marker date="1534141980105" expanded="true" signature="348:490" ph="INSERT INTO tb1_customer... " />
+            <marker date="1534141980105" expanded="true" signature="373:490" ph="(customerId,... " />
+            <marker date="1534141980105" expanded="true" signature="559:716" ph="update tb1_c... " />
+            <marker date="1534141980105" expanded="true" signature="800:842" ph="DELETE from " />
+            <marker date="1534141980105" expanded="true" signature="942:985" ph="select * fro... tb1_customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/service/ICustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomerModel.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodsmgr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/MybatisConf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#353#354#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#438#439#0" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#641#642#0" expanded="false" />
-            <element signature="e#672#673#0" expanded="false" />
-            <element signature="e#720#721#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#914#915#0" expanded="false" />
-            <element signature="e#953#954#0" expanded="false" />
-            <element signature="e#988#989#0" expanded="false" />
-            <element signature="e#1044#1045#0" expanded="false" />
-            <element signature="e#1092#1093#0" expanded="false" />
-          </folding>
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerController.java">
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/vo/CustomerQueryModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="58" column="35" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#849#850#0" expanded="false" />
-            <element signature="e#886#887#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/success.jsp">
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="-2772">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/jsp/customer/delete.jsp">
+    <entry file="file://$PROJECT_DIR$/customermgr/customermgr.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="-900">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerWebModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customermgr/src/main/java/com/ultrapower/customermgr/web/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="128" column="18" lean-forward="false" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -2792,7 +2508,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34647304" />
               </list>
             </option>
           </splitter-proportions>
@@ -2805,6 +2521,7 @@
             <option name="proportions">
               <list>
                 <option value="0.34647304" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -2824,7 +2541,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.apache.xmlbeans:xmlbeans:2.6.0</last-edited>
+          <last-edited>Maven: cglib:cglib:3.2.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

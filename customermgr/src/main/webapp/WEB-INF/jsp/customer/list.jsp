@@ -10,6 +10,11 @@
 <body>
  <table>
      <tr>
+         <td>
+             <a href="${pageContext.request.contextPath}/customer/toAdd">添加客户</a>
+         </td>
+     </tr>
+     <tr>
          <td>客户列表</td>
      </tr>
      <tr>

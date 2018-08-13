@@ -23,11 +23,14 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.5" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.2" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Maven: org.logback-extensions:logback-ext-spring:0.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.6.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.6.2" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.0.4" />
           <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
@@ -47,6 +50,9 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.3" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.3" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.3" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:2.10.4" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-ehcache:1.0.0" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.0.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
