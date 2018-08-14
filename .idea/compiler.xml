@@ -10,6 +10,7 @@
         <module name="cartmgr" />
         <module name="common" />
         <module name="customermgr" />
+        <module name="front" />
         <module name="goodsmgr" />
         <module name="goodsmgrweb" />
         <module name="ordermgr" />
@@ -22,6 +23,7 @@
       <module name="cartmgr" target="1.7" />
       <module name="common" target="1.7" />
       <module name="customermgr" target="1.7" />
+      <module name="front" target="1.7" />
       <module name="goodsmgr" target="1.7" />
       <module name="goodsmgrweb" target="1.7" />
       <module name="ordermgr" target="1.7" />

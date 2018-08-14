@@ -16,11 +16,11 @@ import java.util.List;
 /**
  * Created by User on 2018/8/6.
  */
-@Service("client")
-@Transactional
+
+
 public class Client {
 
-    @Autowired
+
    // private CustomerDAO customerDao;
     private ICustomerService iservice = null;
 

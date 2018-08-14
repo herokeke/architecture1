@@ -29,6 +29,7 @@
     <orderEntry type="module" module-name="cartmgr" />
     <orderEntry type="module" module-name="ordermgr" />
     <orderEntry type="module" module-name="storemgr" />
+    <orderEntry type="module" module-name="front" />
     <orderEntry type="library" name="Maven: cglib:cglib:3.2.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.9.6" level="project" />
@@ -77,5 +78,7 @@
     <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache:2.10.4" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-ehcache:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache-core:2.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1" level="project" />
   </component>
 </module>

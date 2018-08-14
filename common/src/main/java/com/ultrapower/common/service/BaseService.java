@@ -39,6 +39,11 @@ public class BaseService<M,QM extends BaseModel> implements IBaseService<M,QM> {
     }
 
     @Override
+    public M getByCustomerId(String customerId) {
+        return (M) dao.getByCustomerId(customerId);
+    }
+
+    @Override
     public PageInfo<M> getByConditionPage(QM qm) {
         List<M> list = dao.getByConditionPage(qm);
         qm.getPageHelper().startPage(1,5);

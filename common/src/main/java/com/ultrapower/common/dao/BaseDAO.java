@@ -15,5 +15,7 @@ public interface BaseDAO<M,QM> {
 
     public M getByPid(int pid);
 
+    public M getByCustomerId(String  customerId);
+
     public List<M> getByConditionPage(QM cm);
 }

@@ -64,6 +64,7 @@
       <element id="artifact" artifact-name="cartmgr:war exploded" />
       <element id="artifact" artifact-name="ordermgr:war exploded" />
       <element id="artifact" artifact-name="storemgr:war exploded" />
+      <element id="artifact" artifact-name="front:war exploded" />
     </root>
   </artifact>
 </component>

@@ -24,6 +24,12 @@
 
    </select>
 
+    <select id="getByCustomerId" parameterType="java.lang.String" resultType="CM">
+
+        select * from tb1_customer where customerId=#{customerId}
+
+    </select>
+
     <select id="getByConditionPage" parameterType="CQM" resultType="CM">
           select * from tb1_customer
           <where>
