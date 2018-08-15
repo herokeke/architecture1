@@ -7,11 +7,23 @@
           <element id="module-output" name="front" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="customermgr-1.0-SNAPSHOT-api.jar">
-            <element id="module-output" name="customermgr" />
-          </element>
           <element id="archive" name="common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="common" />
+          </element>
+          <element id="archive" name="goodsmgr-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="goodsmgr" />
+          </element>
+          <element id="archive" name="cartmgr-1.0-SNAPSHOT-api.jar">
+            <element id="module-output" name="cartmgr" />
+          </element>
+          <element id="archive" name="ordermgr-1.0-SNAPSHOT-api.jar">
+            <element id="module-output" name="ordermgr" />
+          </element>
+          <element id="archive" name="storemgr-1.0-SNAPSHOT-api.jar">
+            <element id="module-output" name="storemgr" />
+          </element>
+          <element id="archive" name="customermgr-1.0-SNAPSHOT-api.jar">
+            <element id="module-output" name="customermgr" />
           </element>
           <element id="library" level="project" name="Maven: cglib:cglib:3.2.5" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant:1.9.6" />

@@ -6,6 +6,16 @@
     <typeAliases>
         <typeAlias type="com.ultrapower.customermgr.vo.CustomerModel" alias="CM"/>
         <typeAlias type="com.ultrapower.customermgr.vo.CustomerQueryModel" alias="CQM"/>
+        <typeAlias type="com.ultrapower.cartmgr.vo.CartModel" alias="CartM"/>
+        <typeAlias type="com.ultrapower.cartmgr.vo.CartQueryModel" alias="CartQM"/>
+        <typeAlias type="com.ultrapower.goodsmgr.vo.GoodsModel" alias="GM"/>
+        <typeAlias type="com.ultrapower.goodsmgr.vo.GoodsQueryModel" alias="GQM"/>
+        <typeAlias type="com.ultrapower.ordermgr.vo.OrderModel" alias="OM"/>
+        <typeAlias type="com.ultrapower.ordermgr.vo.OrderQueryModel" alias="OQM"/>
+        <typeAlias type="com.ultrapower.ordermgr.vo.OrderDetailModel" alias="ODM"/>
+        <typeAlias type="com.ultrapower.ordermgr.vo.OrderDetailQueryModel" alias="ODQM"/>
+        <typeAlias type="com.ultrapower.storemgr.vo.StoreModel" alias="StoreM"/>
+        <typeAlias type="com.ultrapower.storemgr.vo.StoreQueryModel" alias="StoreQM"/>
     </typeAliases>
 
     <plugins>

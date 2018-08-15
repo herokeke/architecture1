@@ -63,10 +63,6 @@
                    <overlays>
                        <overlay>
                            <groupId>com.ultrapower</groupId>
-                           <artifactId>customermgr</artifactId>
-                       </overlay>
-                       <overlay>
-                           <groupId>com.ultrapower</groupId>
                            <artifactId>goodsmgrweb</artifactId>
                        </overlay>
                        <overlay>

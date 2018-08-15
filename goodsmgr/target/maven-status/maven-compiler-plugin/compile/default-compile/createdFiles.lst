@@ -1,1 +1,5 @@
-com\ultrapower\goodsmgr\GoodsmgrOne.class
+com\ultrapower\goodsmgr\service\GoodsService.class
+com\ultrapower\goodsmgr\vo\GoodsModel.class
+com\ultrapower\goodsmgr\vo\GoodsQueryModel.class
+com\ultrapower\goodsmgr\dao\GoodsDAO.class
+com\ultrapower\goodsmgr\service\IGoodsService.class

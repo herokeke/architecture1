@@ -27,7 +27,7 @@
     <!--会自动注册RequestMappingHandlerMapping与RequestMappingHandlerAdapter两个Bean,这是Spring MVC为@Controller分发请求所必需的，并且提供了数据绑定支持，-->
     <mvc:annotation-driven />
 
- <mvc:resources mapping="/static/**" location="/WEB-INF/static"/>
+ <mvc:resources mapping="/static/**" location="/WEB-INF/"/>
 
  <mvc:default-servlet-handler/>
  <bean id="defaultViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">

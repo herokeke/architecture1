@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>    
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.ultrapower.storemgr.dao.StoreDAO">
+     <insert id="create" parameterType="StoreM">
+     	insert into tb1_store (goodsPid,storeNum)
+     	 values(#{goodsPid},#{storeNum})
+     </insert>
+     <update id="update" parameterType="StoreM">
+     	update tb1_store set goodsPid=#{goodsPid},storeNum=#{storeNum}
+     	   	where pid=#{pid}
+     </update>
+     <delete id="delete" parameterType="int">
+     	delete from tb1_store where pid=#{pid}
+     </delete>
+
+     <select id="getByGoodsPid" parameterType="int" resultType="StoreM">
+        select * from tb1_store where goodsPid=#{goodsPid}
+    </select>
+    <select id="getByPid" parameterType="int" resultType="StoreM">
+        select * from tb1_store where pid=#{pid}
+    </select>  
+    <select id="getByConditionPage" parameterType="StoreQM" resultType="StoreM">  
+        select * from tb1_store
+        <where>
+        	<if test="pid!=null &amp;&amp; pid > 0">
+        		and pid=#{pid}
+        	</if>  
+        	
+        </where>
+    </select> 
+</mapper>

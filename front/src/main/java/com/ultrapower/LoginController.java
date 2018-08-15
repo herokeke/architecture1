@@ -34,13 +34,13 @@ public class LoginController {
             return "login";
         }
 
-        CustomerModel cm = ics.getByCustomerId(customerId);
+        CustomerModel cm = ics.getByMId(customerId);
 
         if(cm==null){
             return "login";
         }
-        Cookie cookie = new Cookie("Mylogin",cm.getPid()+","+ System.currentTimeMillis());
+        Cookie cookie = new Cookie("myLogin",cm.getPid()+","+ System.currentTimeMillis());
         resonse.addCookie(cookie);
-        return "index";
+        return "redirect:/toIndex";
     }
 }

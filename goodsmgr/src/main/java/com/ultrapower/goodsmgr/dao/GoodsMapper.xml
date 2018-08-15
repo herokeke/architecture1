@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ultrapower.goodsmgr.dao.GoodsDAO">
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>
+
+    <insert id="create"  parameterType="GM">
+        insert into TB1_GOODS(name,imgPath,description) values(#{name},#{imgPath},#{description})
+    </insert>
+
+    <update id="update" parameterType="GM">
+        	update TB1_GOODS set name=#{name},imgPath=#{imgPath},description=#{description}
+     	   	where pid=#{pid}
+    </update>
+
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        DELETE  from TB1_GOODS where pid=#{pid}
+    </delete>
+
+   <select id="getByPid" parameterType="java.lang.Integer" resultType="GM">
+
+       select * from TB1_GOODS where pid=#{pid}
+
+   </select>
+
+    <select id="getByConditionPage" parameterType="GQM" resultType="GM">
+          select * from TB1_GOODS
+          <where>
+              <if test="pid!=null &amp;&amp; pid>0">
+
+                  and pid=#{pid}
+
+              </if>
+              <if test="name!=null">
+
+                  and name = #{name}
+
+              </if>
+              <if test="imgPath!=null">
+
+                  and imgPath = #{imgPath}
+
+              </if>
+          </where>
+
+    </select>
+
+</mapper>

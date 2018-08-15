@@ -1,1 +1,5 @@
-D:\project\idea\maven_demo\architecture1\goodsmgr\src\main\java\com\ultrapower\goodsmgr\GoodsmgrOne.java
+D:\project\idea\maven_demo\architecture1\goodsmgr\src\main\java\com\ultrapower\goodsmgr\vo\GoodsModel.java
+D:\project\idea\maven_demo\architecture1\goodsmgr\src\main\java\com\ultrapower\goodsmgr\service\GoodsService.java
+D:\project\idea\maven_demo\architecture1\goodsmgr\src\main\java\com\ultrapower\goodsmgr\vo\GoodsQueryModel.java
+D:\project\idea\maven_demo\architecture1\goodsmgr\src\main\java\com\ultrapower\goodsmgr\service\IGoodsService.java
+D:\project\idea\maven_demo\architecture1\goodsmgr\src\main\java\com\ultrapower\goodsmgr\dao\GoodsDAO.java

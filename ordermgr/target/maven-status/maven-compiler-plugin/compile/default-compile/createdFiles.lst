@@ -1,0 +1,14 @@
+com\ultrapower\ordermgr\vo\OrderQueryModel.class
+com\ultrapower\ordermgr\service\OrderDetailService.class
+com\ultrapower\ordermgr\vo\OrderModel.class
+com\ultrapower\ordermgr\vo\OrderDetailModel.class
+com\ultrapower\ordermgr\web\OrderWebModel.class
+com\ultrapower\ordermgr\dao\OrderDAO.class
+com\ultrapower\ordermgr\service\IOrderDetailService.class
+com\ultrapower\ordermgr\web\OrderDetailWebModel.class
+com\ultrapower\ordermgr\web\OrderDetailController.class
+com\ultrapower\ordermgr\dao\OrderDetailDAO.class
+com\ultrapower\ordermgr\web\OrderController.class
+com\ultrapower\ordermgr\service\IOrderService.class
+com\ultrapower\ordermgr\service\OrderService.class
+com\ultrapower\ordermgr\vo\OrderDetailQueryModel.class

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>    
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.ultrapower.cartmgr.dao.CartDAO">
+     <insert id="create" parameterType="CartM">
+     	insert into tb1_cart (customerPid,goodsPid,buyNum) 
+     	 values(#{customerPid},#{goodsPid},#{buyNum})
+     </insert>
+     <update id="update" parameterType="CartM">
+     	update tb1_cart set customerPid=#{customerPid},goodsPid=#{goodsPid},buyNum=#{buyNum}
+     	   	where pid=#{pid}
+     </update>
+     <delete id="delete" parameterType="int">
+     	delete from tb1_cart where pid=#{pid}
+     </delete>
+     
+    <select id="getByPid" parameterType="int" resultType="CartM">
+        select * from tb1_cart where pid=#{pid}
+    </select>  
+    <select id="getByConditionPage" parameterType="CartQM" resultType="CartM">  
+        select * from tb1_cart
+        <where>
+        	<if test="pid!=null &amp;&amp; pid > 0">
+        		and pid=#{pid}
+        	</if>  
+        	<if test="customerPid!=null &amp;&amp; customerPid > 0">
+        		and customerPid=#{customerPid}
+        	</if>
+        </where>
+    </select> 
+</mapper>

@@ -59,11 +59,11 @@
         <element id="file-copy" path="$PROJECT_DIR$/architecture1web/target/architecture1web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="architecture1web/web/Web" />
-      <element id="artifact" artifact-name="customermgr:war exploded" />
       <element id="artifact" artifact-name="goodsmgrweb:war exploded" />
       <element id="artifact" artifact-name="cartmgr:war exploded" />
       <element id="artifact" artifact-name="ordermgr:war exploded" />
       <element id="artifact" artifact-name="storemgr:war exploded" />
+      <element id="artifact" artifact-name="customermgr:war exploded" />
       <element id="artifact" artifact-name="front:war exploded" />
     </root>
   </artifact>

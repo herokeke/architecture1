@@ -18,7 +18,7 @@ public interface IBaseService<M,QM extends BaseModel> {
 
     public M getByPid(int pid);
 
-    public M getByCustomerId(String customerId);
+    public M getByMId(String mId);
 
     public PageInfo<M> getByConditionPage(QM cm);
 }

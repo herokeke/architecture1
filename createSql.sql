@@ -36,7 +36,7 @@ DROP TABLE IF EXISTS tb1_order;
 CREATE TABLE tb1_order
 (
 pid INT NOT NULL AUTO_INCREMENT,
-customeruuid INT,
+customerPid INT,
 ordertime VARCHAR(100),
 totalmoney FLOAT,
 savemoney FLOAT,
